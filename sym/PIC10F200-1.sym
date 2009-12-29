@@ -1,0 +1,80 @@
+v 20091004 2
+T 3000 1300 8 10 1 1 180 0 1
+refdes=U?
+T 300 1340 5 10 0 0 0 0 1
+device=PIC10F200
+T 300 1550 5 10 0 0 0 0 1
+numslots=0
+B 300 0 2700 1100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 800 300 800 1 0 0
+{
+T 200 850 5 8 1 1 0 6 1
+pinnumber=5
+T 200 750 5 8 0 1 0 8 1
+pinseq=5
+T 350 800 9 8 1 1 0 0 1
+pinlabel=Vdd
+T 350 800 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 0 500 300 500 1 0 0
+{
+T 200 550 5 8 1 1 0 6 1
+pinnumber=1
+T 200 450 5 8 0 1 0 8 1
+pinseq=1
+T 350 500 9 8 1 1 0 0 1
+pinlabel=GP0/ICSPDAT
+T 350 500 5 8 0 1 0 2 1
+pintype=io
+}
+P 0 200 300 200 1 0 0
+{
+T 200 250 5 8 1 1 0 6 1
+pinnumber=3
+T 200 150 5 8 0 1 0 8 1
+pinseq=3
+T 350 200 9 8 1 1 0 0 1
+pinlabel=GP1/ICSPCLK
+T 350 200 5 8 0 1 0 2 1
+pintype=io
+}
+P 3300 200 3000 200 1 0 0
+{
+T 3100 250 5 8 1 1 0 0 1
+pinnumber=4
+T 3100 150 5 8 0 1 0 2 1
+pinseq=4
+T 2950 200 9 8 1 1 0 6 1
+pinlabel=GP2/T0CKI/FOSC4
+T 2950 200 5 8 0 1 0 8 1
+pintype=io
+}
+P 3300 500 3000 500 1 0 0
+{
+T 3100 550 5 8 1 1 0 0 1
+pinnumber=6
+T 3100 450 5 8 0 1 0 2 1
+pinseq=6
+T 2950 500 9 8 1 1 0 6 1
+pinlabel=GP3/\_\MCLR\_\/Vpp
+T 2950 500 5 8 0 1 0 8 1
+pintype=in
+}
+P 3300 800 3000 800 1 0 0
+{
+T 3100 850 5 8 1 1 0 0 1
+pinnumber=2
+T 3100 750 5 8 0 1 0 2 1
+pinseq=2
+T 2950 800 9 8 1 1 0 6 1
+pinlabel=Vss
+T 2950 800 5 8 0 1 0 8 1
+pintype=pwr
+}
+T 300 1750 5 10 0 0 0 0 1
+description=8-bit Flash microcontroller
+T 300 1950 5 10 0 0 0 0 1
+documentation=http://ww1.microchip.com/downloads/en/DeviceDoc/41239D.pdf
+T 300 1150 9 10 1 0 0 0 1
+PIC10F200
