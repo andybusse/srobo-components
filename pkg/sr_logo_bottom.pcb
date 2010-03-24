@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Mar 24 00:06:49 2010
+# date:    Wed Mar 24 00:14:56 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 16535 16535]
 
 Grid[393.700775 0 0 1]
-Cursor[0 0 0.000000]
+Cursor[0 16535 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -802,14 +802,14 @@ Layer(1 "component")
 )
 Layer(2 "solder")
 (
-	Line[3937 10630 2362 11811 1100 1200 "clearline"]
-	Line[12598 10630 14173 11811 1100 1200 "clearline"]
-	Line[8268 4724 14173 6693 1100 1200 "clearline,rubberend"]
-	Line[9449 9055 12598 10630 1100 1200 "clearline"]
-	Line[14173 6693 9449 9055 1100 1200 "clearline"]
-	Line[2362 6693 8268 4724 1100 1200 "clearline"]
-	Line[2362 6693 7087 9055 1100 1200 "clearline"]
-	Line[7087 9055 3937 10630 1100 1200 "clearline"]
+	Line[3937 5906 2362 4724 1100 1200 "clearline"]
+	Line[12598 5906 14173 4724 1100 1200 "clearline"]
+	Line[8268 11811 14173 9843 1100 1200 "clearline"]
+	Line[9449 7480 12598 5906 1100 1200 "clearline"]
+	Line[14173 9843 9449 7480 1100 1200 "clearline"]
+	Line[2362 9843 8268 11811 1100 1200 "clearline"]
+	Line[2362 9843 7087 7480 1100 1200 "clearline"]
+	Line[7087 7480 3937 5906 1100 1200 "clearline"]
 	Arc[8268 8268 7874 7874 600 1200 180 90 "clearline"]
 	Arc[8268 8268 7874 7874 600 1200 90 90 "clearline"]
 	Arc[8268 8268 7874 7874 600 1200 0 90 "clearline"]
