@@ -12,10 +12,10 @@ Element["" "Beagleboard expansion and LCD headers plus mounting holes" "" "beagl
 	ElementLine [0      300000 0      0      1000]
 
 	# Mounting holes
-	Pin [13780  15748  16000 2000 16000 16000 "" "" "hole"]
-	Pin [293307 15748  16000 2000 16000 16000 "" "" "hole"]
-	Pin [293307 283465 16000 2000 16000 16000 "" "" "hole"]
-	Pin [13780  283465 16000 2000 16000 16000 "" "" "hole"]
+	Pin [15000  15000  16000 2000 16000 16000 "" "" "hole"]
+	Pin [295000 15000  16000 2000 16000 16000 "" "" "hole"]
+	Pin [295000 285000 16000 2000 16000 16000 "" "" "hole"]
+	Pin [15000  285000 16000 2000 16000 16000 "" "" "hole"]
 
 	# Expansion header
 	# Outline
