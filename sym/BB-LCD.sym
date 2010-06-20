@@ -382,7 +382,7 @@ pinlabel=I2C3_SCL
 T 2445 1845 5 8 1 1 0 0 1
 pinnumber=C14
 T 2700 1800 5 10 0 0 0 0 1
-pinseq=24
+pinseq=34
 }
 P 2700 3300 2400 3300 1 0 0
 {
@@ -424,9 +424,9 @@ pintype=io
 T 2345 3095 5 8 1 1 0 7 1
 pinlabel=HSYNC
 T 2445 3145 5 8 1 1 0 0 1
-pinnumber=B18
+pinnumber=C18
 T 2700 3100 5 10 0 0 0 0 1
-pinseq=18
+pinseq=38
 }
 P 2700 3500 2400 3500 1 0 0
 {
