@@ -1,0 +1,65 @@
+v 20091004 2
+B 900 500 900 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 2100 1100 1800 1100 1 0 0
+{
+T 2100 1100 5 10 0 0 90 0 1
+pintype=unknown
+T 1745 1095 5 10 1 1 0 6 1
+pinlabel=OUT
+T 1895 1145 5 10 1 1 0 0 1
+pinnumber=5
+T 2100 1100 5 10 0 0 90 0 1
+pinseq=0
+}
+P 2100 800 1800 800 1 0 0
+{
+T 2100 800 5 10 0 0 90 0 1
+pintype=unknown
+T 1745 795 5 10 1 1 0 6 1
+pinlabel=NR
+T 1895 845 5 10 1 1 0 0 1
+pinnumber=4
+T 2100 800 5 10 0 0 90 0 1
+pinseq=0
+}
+P 600 1100 900 1100 1 0 0
+{
+T 600 1100 5 10 0 0 90 0 1
+pintype=unknown
+T 955 1095 5 10 1 1 0 0 1
+pinlabel=IN
+T 805 1145 5 10 1 1 0 6 1
+pinnumber=1
+T 600 1100 5 10 0 0 90 0 1
+pinseq=0
+}
+P 600 800 900 800 1 0 0
+{
+T 600 800 5 10 0 0 90 0 1
+pintype=unknown
+T 955 795 5 10 1 1 0 0 1
+pinlabel=EN
+T 805 845 5 10 1 1 0 6 1
+pinnumber=3
+T 600 800 5 10 0 0 90 0 1
+pinseq=0
+}
+P 1400 200 1400 500 1 0 0
+{
+T 1400 200 5 10 0 0 180 0 1
+pintype=unknown
+T 1400 555 5 10 1 1 90 0 1
+pinlabel=GND
+T 1350 405 5 10 1 1 90 6 1
+pinnumber=2
+T 1400 200 5 10 0 0 180 0 1
+pinseq=0
+}
+T 800 1500 8 10 1 1 180 0 1
+refdes=IC?
+T 2400 1800 8 10 0 0 0 0 1
+footprint=SOT25-2
+T 2400 2000 8 10 0 0 0 0 1
+device=TPS73025DBVT
+T 2400 1600 8 10 0 0 0 0 1
+description=low-dropout low-power linear voltage regulator features high power-supply rejection ratio, ultralow-noise, fast start-up & excellent line and load transient 
