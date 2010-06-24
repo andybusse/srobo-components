@@ -1,0 +1,76 @@
+v 20091004 2
+B 600 600 1400 1600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1500 2500 1500 2200 1 0 0
+{
+T 1500 2700 5 10 0 0 0 0 1
+pintype=unknown
+T 1500 2145 5 10 1 1 90 6 1
+pinlabel=SW
+T 1450 2295 5 10 1 1 90 0 1
+pinnumber=4
+T 1500 2700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 2300 1700 2000 1700 1 0 0
+{
+T 2500 1700 5 10 0 0 0 0 1
+pintype=unknown
+T 1945 1695 5 10 1 1 0 6 1
+pinlabel=OVD
+T 2095 1745 5 10 1 1 0 0 1
+pinnumber=2
+T 2500 1700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 2300 1200 2000 1200 1 0 0
+{
+T 2500 1200 5 10 0 0 0 0 1
+pintype=unknown
+T 1945 1195 5 10 1 1 0 6 1
+pinlabel=FB
+T 2095 1245 5 10 1 1 0 0 1
+pinnumber=6
+T 2500 1200 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1500 300 1500 600 1 0 0
+{
+T 1500 0 5 10 0 0 0 0 1
+pintype=unknown
+T 1500 655 5 10 1 1 90 0 1
+pinlabel=GND
+T 1450 505 5 10 1 1 90 6 1
+pinnumber=5
+T 1500 0 5 10 0 0 0 0 1
+pinseq=0
+}
+P 300 1600 600 1600 1 0 0
+{
+T 0 1600 5 10 0 0 0 0 1
+pintype=unknown
+T 755 1595 5 10 1 1 0 0 1
+pinlabel=VIN
+T 605 1645 5 10 1 1 0 6 1
+pinnumber=3
+T 0 1600 5 10 0 0 0 0 1
+pinseq=0
+}
+P 300 1100 600 1100 1 0 0
+{
+T 0 1100 5 10 0 0 0 0 1
+pintype=unknown
+T 755 1095 5 10 1 1 0 0 1
+pinlabel=\_SHDN
+T 605 1145 5 10 1 1 0 6 1
+pinnumber=1
+T 0 1100 5 10 0 0 0 0 1
+pinseq=0
+}
+T 200 2000 8 10 1 1 0 0 1
+refdes=IC?
+T 600 3300 8 10 0 0 0 0 1
+footprint=SOT26
+T 600 3600 8 10 0 0 0 0 1
+device=TB62752AFUG
+T 600 3000 8 10 0 0 0 0 1
+description=high efficient Step-Up Type DC/DC converter, designed for constant current driving of White LED
