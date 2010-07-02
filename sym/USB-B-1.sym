@@ -52,3 +52,5 @@ pinseq=4
 }
 T 300 2100 8 10 0 0 0 0 1
 numslots=0
+T 300 1900 8 10 0 0 0 0 1
+footprint=USB_B_1
