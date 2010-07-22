@@ -96,3 +96,5 @@ T 300 2200 8 10 0 0 0 0 1
 device=TL5001ACD
 T 300 1800 8 10 1 1 0 0 1
 refdes=IC?
+T 1300 100 8 10 1 1 0 0 1
+value=sr-ic-tl5001acd
