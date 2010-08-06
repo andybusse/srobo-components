@@ -11,4 +11,9 @@ Element["" "Surface mount piezo buzzer" "" "piezo_1" 0 0 0 0 0 100 ""]
 	ElementLine[ 8.2mm  8.2mm  8.2mm -8.2mm 0.25mm]
 	ElementLine[ 8.2mm -8.2mm -8.2mm -8.2mm 0.25mm]
 	ElementLine[-8.2mm -8.2mm -8.2mm  8.2mm 0.25mm]
+
+	# Sound emitting opening marker
+	ElementLine[-1.5mm 6mm 1.5mm 6mm 0.25mm]
+	ElementLine[-1.5mm 6mm 0mm 8mm 0.25mm]
+	ElementLine[ 1.5mm 6mm 0mm 8mm 0.25mm]
 )
