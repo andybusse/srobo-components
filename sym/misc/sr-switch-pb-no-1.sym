@@ -1,4 +1,4 @@
-v 20100214 2
+v 20111231 2
 T 400 600 8 10 1 1 0 0 1
 refdes=S?
 P 0 300 150 300 1 0 0
@@ -34,8 +34,8 @@ L 470 505 495 455 3 0 0 0 -1 -1
 L 520 505 495 455 3 0 0 0 -1 -1
 L 495 505 495 555 3 0 0 0 -1 -1
 L 495 455 495 386 3 0 0 0 -1 -1
-T 0 900 8 10 0 0 0 0 1
-device=SWITCH_PUSHBUTTON_NO
+T 0 1200 5 10 0 0 0 0 1
+numslots=0
 P 0 0 150 0 1 0 0
 {
 T 50 50 5 8 1 1 0 0 1
@@ -60,3 +60,9 @@ pintype=pas
 }
 L 850 0 850 300 3 0 0 0 -1 -1
 L 150 0 150 300 3 0 0 0 -1 -1
+T 0 1400 5 10 0 0 0 0 1
+device=SWITCH_PUSHBUTTON_NO
+T 0 1600 5 10 0 0 0 0 1
+symversion=1
+T 0 1000 5 10 0 0 0 0 1
+description=Normally-open tactile switch
