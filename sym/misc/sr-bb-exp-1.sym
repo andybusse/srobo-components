@@ -1,0 +1,326 @@
+v 20111231 2
+B 0 300 2500 8700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1300 9300 8 10 1 1 0 0 1
+refdes=U?
+T 0 9700 5 10 0 0 0 0 1
+device=BeagleBoardC4
+T 0 10100 5 10 0 0 0 0 1
+documentation=http://beagleboard.org/static/BBSRM_latest.pdf
+T 0 10300 5 10 0 0 0 0 1
+description=BeagleBoard C4 expansion header. Not all available mux'd signals shown to reduce clutter
+T 0 10500 5 10 0 0 0 0 1
+numslots=0
+P 900 0 900 300 1 0 0
+{
+T 900 0 5 10 0 0 0 0 1
+pintype=pwr
+T 905 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 955 250 5 8 1 1 0 2 1
+pinnumber=A28
+T 900 0 5 10 0 0 0 0 1
+pinseq=28
+}
+P 400 0 400 300 1 0 0
+{
+T 400 0 5 10 0 0 0 0 1
+pintype=pwr
+T 405 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 455 250 5 8 1 1 0 2 1
+pinnumber=A27
+T 400 0 5 10 0 0 0 0 1
+pinseq=27
+}
+P 900 9300 900 9000 1 0 0
+{
+T 900 9300 5 10 0 0 0 0 1
+pintype=pwr
+T 905 8950 9 8 1 1 0 5 1
+pinlabel=5V
+T 955 9050 5 8 1 1 0 0 1
+pinnumber=A2
+T 900 9300 5 10 0 0 0 0 1
+pinseq=2
+}
+P 400 9300 400 9000 1 0 0
+{
+T 400 9300 5 10 0 0 0 0 1
+pintype=pwr
+T 405 8950 9 8 1 1 0 5 1
+pinlabel=1V8
+T 455 9050 5 8 1 1 0 0 1
+pinnumber=A1
+T 400 9300 5 10 0 0 0 0 1
+pinseq=1
+}
+P 2800 8700 2500 8700 1 0 0
+{
+T 2800 8700 5 10 0 0 0 0 1
+pintype=io
+T 2445 8695 9 8 1 1 0 7 1
+pinlabel=MMC2_DAT7
+T 2545 8745 5 8 1 1 0 0 1
+pinnumber=A3
+T 2800 8700 5 10 0 0 0 0 1
+pinseq=3
+}
+P 2800 8400 2500 8400 1 0 0
+{
+T 2800 8400 5 10 0 0 0 0 1
+pintype=io
+T 2445 8395 9 8 1 1 0 7 1
+pinlabel=MMC2_DAT6
+T 2545 8445 5 8 1 1 0 0 1
+pinnumber=A5
+T 2800 8400 5 10 0 0 0 0 1
+pinseq=5
+}
+P 2800 8100 2500 8100 1 0 0
+{
+T 2800 8100 5 10 0 0 0 0 1
+pintype=io
+T 2445 8095 9 8 1 1 0 7 1
+pinlabel=MMC2_DAT5
+T 2545 8145 5 8 1 1 0 0 1
+pinnumber=A7
+T 2800 8100 5 10 0 0 0 0 1
+pinseq=7
+}
+P 2800 7800 2500 7800 1 0 0
+{
+T 2800 7800 5 10 0 0 0 0 1
+pintype=io
+T 2445 7795 9 8 1 1 0 7 1
+pinlabel=MMC2_DAT4
+T 2545 7845 5 8 1 1 0 0 1
+pinnumber=A9
+T 2800 7800 5 10 0 0 0 0 1
+pinseq=9
+}
+P 2800 7500 2500 7500 1 0 0
+{
+T 2800 7500 5 10 0 0 0 0 1
+pintype=io
+T 2445 7495 9 8 1 1 0 7 1
+pinlabel=McSPI3_CS0/MMC2_DAT3
+T 2545 7545 5 8 1 1 0 0 1
+pinnumber=A11
+T 2800 7500 5 10 0 0 0 0 1
+pinseq=11
+}
+P 2800 7200 2500 7200 1 0 0
+{
+T 2800 7200 5 10 0 0 0 0 1
+pintype=io
+T 2445 7195 9 8 1 1 0 7 1
+pinlabel=McSPI3_CS1/MMC2_DAT2
+T 2545 7245 5 8 1 1 0 0 1
+pinnumber=A13
+T 2800 7200 5 10 0 0 0 0 1
+pinseq=13
+}
+P 2800 6900 2500 6900 1 0 0
+{
+T 2800 6900 5 10 0 0 0 0 1
+pintype=io
+T 2445 6895 9 8 1 1 0 7 1
+pinlabel=MMC2_DAT1
+T 2545 6945 5 8 1 1 0 0 1
+pinnumber=A15
+T 2800 6900 5 10 0 0 0 0 1
+pinseq=15
+}
+P 2800 6600 2500 6600 1 0 0
+{
+T 2800 6600 5 10 0 0 0 0 1
+pintype=io
+T 2445 6595 9 8 1 1 0 7 1
+pinlabel=McSPI3_SOMI/MMC2_DAT0
+T 2545 6645 5 8 1 1 0 0 1
+pinnumber=A17
+T 2800 6600 5 10 0 0 0 0 1
+pinseq=17
+}
+P 2800 1800 2500 1800 1 0 0
+{
+T 2800 1800 5 10 0 0 0 0 1
+pintype=io
+T 2445 1795 9 8 1 1 0 7 1
+pinlabel=I2C2_SDA
+T 2545 1845 5 8 1 1 0 0 1
+pinnumber=A23
+T 2800 1800 5 10 0 0 0 0 1
+pinseq=23
+}
+P 2800 1500 2500 1500 1 0 0
+{
+T 2800 1500 5 10 0 0 0 0 1
+pintype=io
+T 2445 1495 9 8 1 1 0 7 1
+pinlabel=I2C2_SCL
+T 2545 1545 5 8 1 1 0 0 1
+pinnumber=A24
+T 2800 1500 5 10 0 0 0 0 1
+pinseq=24
+}
+P 2800 900 2500 900 1 0 0
+{
+T 2800 900 5 10 0 0 0 0 1
+pintype=io
+T 2445 895 9 8 1 1 0 7 1
+pinlabel=REGEN
+T 2545 945 5 8 1 1 0 0 1
+pinnumber=A25
+T 2800 900 5 10 0 0 0 0 1
+pinseq=25
+}
+P 2800 600 2500 600 1 0 0
+{
+T 2800 600 5 10 0 0 0 0 1
+pintype=io
+T 2445 595 9 8 1 1 0 7 1
+pinlabel=\_RESET\_
+T 2545 645 5 8 1 1 0 0 1
+pinnumber=A26
+T 2800 600 5 10 0 0 0 0 1
+pinseq=26
+}
+P 2800 2400 2500 2400 1 0 0
+{
+T 2800 2400 5 10 0 0 0 0 1
+pintype=io
+T 2445 2395 9 8 1 1 0 7 1
+pinlabel=McBSP1_FSR
+T 2545 2445 5 8 1 1 0 0 1
+pinnumber=A22
+T 2800 2400 5 10 0 0 0 0 1
+pinseq=22
+}
+P 2800 6300 2500 6300 1 0 0
+{
+T 2800 6300 5 10 0 0 0 0 1
+pintype=io
+T 2445 6295 9 8 1 1 0 7 1
+pinlabel=McSPI3_SIMO/MMC2_CMD
+T 2545 6345 5 8 1 1 0 0 1
+pinnumber=A19
+T 2800 6300 5 10 0 0 0 0 1
+pinseq=19
+}
+P 2800 6000 2500 6000 1 0 0
+{
+T 2800 6000 5 10 0 0 0 0 1
+pintype=io
+T 2445 5995 9 8 1 1 0 7 1
+pinlabel=McSPI3_CLK/MMC2_CLKO
+T 2545 6045 5 8 1 1 0 0 1
+pinnumber=A21
+T 2800 6000 5 10 0 0 0 0 1
+pinseq=21
+}
+P 2800 5400 2500 5400 1 0 0
+{
+T 2800 5400 5 10 0 0 0 0 1
+pintype=io
+T 2445 5395 9 8 1 1 0 7 1
+pinlabel=McBSP3_DX/UART2_CTS
+T 2545 5445 5 8 1 1 0 0 1
+pinnumber=A4
+T 2800 5400 5 10 0 0 0 0 1
+pinseq=4
+}
+P 2800 5100 2500 5100 1 0 0
+{
+T 2800 5100 5 10 0 0 0 0 1
+pintype=io
+T 2445 5095 9 8 1 1 0 7 1
+pinlabel=McBSP3_CLKX/UART2_TX
+T 2545 5145 5 8 1 1 0 0 1
+pinnumber=A6
+T 2800 5100 5 10 0 0 0 0 1
+pinseq=6
+}
+P 2800 4800 2500 4800 1 0 0
+{
+T 2800 4800 5 10 0 0 0 0 1
+pintype=io
+T 2445 4795 9 8 1 1 0 7 1
+pinlabel=McBSP3_FSX/UART2_RX
+T 2545 4845 5 8 1 1 0 0 1
+pinnumber=A8
+T 2800 4800 5 10 0 0 0 0 1
+pinseq=8
+}
+P 2800 4500 2500 4500 1 0 0
+{
+T 2800 4500 5 10 0 0 0 0 1
+pintype=io
+T 2445 4495 9 8 1 1 0 7 1
+pinlabel=McBSP3_DR/UART2_RTS
+T 2545 4545 5 8 1 1 0 0 1
+pinnumber=A10
+T 2800 4500 5 10 0 0 0 0 1
+pinseq=10
+}
+P 2800 3900 2500 3900 1 0 0
+{
+T 2800 3900 5 10 0 0 0 0 1
+pintype=io
+T 2445 3895 9 8 1 1 0 7 1
+pinlabel=McBSP3_DX/McBSP1_DX
+T 2545 3945 5 8 1 1 0 0 1
+pinnumber=A12
+T 2800 3900 5 10 0 0 0 0 1
+pinseq=12
+}
+P 2800 3600 2500 3600 1 0 0
+{
+T 2800 3600 5 10 0 0 0 0 1
+pintype=io
+T 2445 3595 9 8 1 1 0 7 1
+pinlabel=McBSP3_CLKX/McBSP1_CLKX
+T 2545 3645 5 8 1 1 0 0 1
+pinnumber=A14
+T 2800 3600 5 10 0 0 0 0 1
+pinseq=14
+}
+P 2800 3300 2500 3300 1 0 0
+{
+T 2800 3300 5 10 0 0 0 0 1
+pintype=io
+T 2445 3295 9 8 1 1 0 7 1
+pinlabel=McBSP3_FSX/McBSP1_FSX
+T 2545 3345 5 8 1 1 0 0 1
+pinnumber=A16
+T 2800 3300 5 10 0 0 0 0 1
+pinseq=16
+}
+P 2800 3000 2500 3000 1 0 0
+{
+T 2800 3000 5 10 0 0 0 0 1
+pintype=io
+T 2445 2995 9 8 1 1 0 7 1
+pinlabel=McBSP3_DR/McBSP1_DR
+T 2545 3045 5 8 1 1 0 0 1
+pinnumber=A18
+T 2800 3000 5 10 0 0 0 0 1
+pinseq=18
+}
+P 2800 2700 2500 2700 1 0 0
+{
+T 2800 2700 5 10 0 0 0 0 1
+pintype=io
+T 2445 2695 9 8 1 1 0 7 1
+pinlabel=McBSP1_CLKR
+T 2545 2745 5 8 1 1 0 0 1
+pinnumber=A20
+T 2800 2700 5 10 0 0 0 0 1
+pinseq=20
+}
+T 0 9900 5 10 0 0 0 0 1
+symversion=1
+T 0 9500 5 10 0 0 0 0 1
+footprint=beagleboard.fp
+T 1300 9100 5 10 1 1 0 0 1
+value=sr-asm-beagleboard

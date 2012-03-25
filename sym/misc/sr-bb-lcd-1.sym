@@ -1,0 +1,447 @@
+v 20111231 2
+B 0 300 2200 10500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1900 11100 8 10 1 1 0 0 1
+refdes=U?
+T 300 11700 5 10 0 0 0 0 1
+device=BeagleBoard
+T 300 11300 5 10 0 0 0 0 1
+footprint=beagleboard.fp
+T 300 12100 5 10 0 0 0 0 1
+description=BeagleBoard LCD header
+T 300 12300 5 10 0 0 0 0 1
+numslots=0
+P 300 11100 300 10800 1 0 0
+{
+T 300 11100 5 10 0 0 0 0 1
+pintype=pwr
+T 295 10750 9 8 1 1 0 5 1
+pinlabel=5V
+T 345 10850 5 8 1 1 0 0 1
+pinnumber=B1
+T 300 11100 5 10 0 0 0 0 1
+pinseq=1
+}
+P 600 11100 600 10800 1 0 0
+{
+T 600 11100 5 10 0 0 0 0 1
+pintype=pwr
+T 595 10750 9 8 1 1 0 5 1
+pinlabel=5V
+T 645 10850 5 8 1 1 0 0 1
+pinnumber=B2
+T 600 11100 5 10 0 0 0 0 1
+pinseq=2
+}
+P 1000 11100 1000 10800 1 0 0
+{
+T 1000 11100 5 10 0 0 0 0 1
+pintype=pwr
+T 995 10750 9 8 1 1 0 5 1
+pinlabel=3V3
+T 1045 10850 5 8 1 1 0 0 1
+pinnumber=C1
+T 1000 11100 5 10 0 0 0 0 1
+pinseq=21
+}
+P 1400 11100 1400 10800 1 0 0
+{
+T 1400 11100 5 10 0 0 0 0 1
+pintype=pwr
+T 1395 10750 9 8 1 1 0 5 1
+pinlabel=1V8
+T 1445 10850 5 8 1 1 0 0 1
+pinnumber=C2
+T 1400 11100 5 10 0 0 0 0 1
+pinseq=22
+}
+P 300 0 300 300 1 0 0
+{
+T 300 600 5 10 0 0 0 0 1
+pintype=pwr
+T 295 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 345 250 5 8 1 1 0 2 1
+pinnumber=B19
+T 300 600 5 10 0 0 0 0 1
+pinseq=19
+}
+P 700 0 700 300 1 0 0
+{
+T 700 600 5 10 0 0 0 0 1
+pintype=pwr
+T 695 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 745 250 5 8 1 1 0 2 1
+pinnumber=B20
+T 700 600 5 10 0 0 0 0 1
+pinseq=20
+}
+P 1100 0 1100 300 1 0 0
+{
+T 1100 600 5 10 0 0 0 0 1
+pintype=pwr
+T 1095 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 1145 250 5 8 1 1 0 2 1
+pinnumber=C19
+T 1100 600 5 10 0 0 0 0 1
+pinseq=39
+}
+P 1500 0 1500 300 1 0 0
+{
+T 1500 600 5 10 0 0 0 0 1
+pintype=pwr
+T 1495 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 1545 250 5 8 1 1 0 2 1
+pinnumber=C20
+T 1500 600 5 10 0 0 0 0 1
+pinseq=40
+}
+P 2500 8400 2200 8400 1 0 0
+{
+T 2500 8400 5 10 0 0 0 0 1
+pintype=io
+T 2145 8395 9 8 1 1 0 7 1
+pinlabel=DATA0
+T 2245 8445 5 8 1 1 0 0 1
+pinnumber=B4
+T 2500 8400 5 10 0 0 0 0 1
+pinseq=4
+}
+P 2500 8700 2200 8700 1 0 0
+{
+T 2500 8700 5 10 0 0 0 0 1
+pintype=io
+T 2145 8695 9 8 1 1 0 7 1
+pinlabel=DATA1
+T 2245 8745 5 8 1 1 0 0 1
+pinnumber=B3
+T 2500 8700 5 10 0 0 0 0 1
+pinseq=3
+}
+P 2500 9000 2200 9000 1 0 0
+{
+T 2500 9000 5 10 0 0 0 0 1
+pintype=io
+T 2145 8995 9 8 1 1 0 7 1
+pinlabel=DATA2
+T 2245 9045 5 8 1 1 0 0 1
+pinnumber=B6
+T 2500 9000 5 10 0 0 0 0 1
+pinseq=6
+}
+P 2500 9300 2200 9300 1 0 0
+{
+T 2500 9300 5 10 0 0 0 0 1
+pintype=io
+T 2145 9295 9 8 1 1 0 7 1
+pinlabel=DATA3
+T 2245 9345 5 8 1 1 0 0 1
+pinnumber=B5
+T 2500 9300 5 10 0 0 0 0 1
+pinseq=5
+}
+P 2500 9600 2200 9600 1 0 0
+{
+T 2500 9600 5 10 0 0 0 0 1
+pintype=io
+T 2145 9595 9 8 1 1 0 7 1
+pinlabel=DATA4
+T 2245 9645 5 8 1 1 0 0 1
+pinnumber=B8
+T 2500 9600 5 10 0 0 0 0 1
+pinseq=8
+}
+P 2500 9900 2200 9900 1 0 0
+{
+T 2500 9900 5 10 0 0 0 0 1
+pintype=io
+T 2145 9895 9 8 1 1 0 7 1
+pinlabel=DATA5
+T 2245 9945 5 8 1 1 0 0 1
+pinnumber=B7
+T 2500 9900 5 10 0 0 0 0 1
+pinseq=7
+}
+P 2500 10200 2200 10200 1 0 0
+{
+T 2500 10200 5 10 0 0 0 0 1
+pintype=io
+T 2145 10195 9 8 1 1 0 7 1
+pinlabel=DATA6
+T 2245 10245 5 8 1 1 0 0 1
+pinnumber=C15
+T 2500 10200 5 10 0 0 0 0 1
+pinseq=35
+}
+P 2500 10500 2200 10500 1 0 0
+{
+T 2500 10500 5 10 0 0 0 0 1
+pintype=io
+T 2145 10495 9 8 1 1 0 7 1
+pinlabel=DATA7
+T 2245 10545 5 8 1 1 0 0 1
+pinnumber=C9
+T 2500 10500 5 10 0 0 0 0 1
+pinseq=29
+}
+P 2500 6000 2200 6000 1 0 0
+{
+T 2500 6000 5 10 0 0 0 0 1
+pintype=io
+T 2145 5995 9 8 1 1 0 7 1
+pinlabel=DATA8
+T 2245 6045 5 8 1 1 0 0 1
+pinnumber=C11
+T 2500 6000 5 10 0 0 0 0 1
+pinseq=31
+}
+P 2500 6300 2200 6300 1 0 0
+{
+T 2500 6300 5 10 0 0 0 0 1
+pintype=io
+T 2145 6295 9 8 1 1 0 7 1
+pinlabel=DATA9
+T 2245 6345 5 8 1 1 0 0 1
+pinnumber=C13
+T 2500 6300 5 10 0 0 0 0 1
+pinseq=33
+}
+P 2500 6600 2200 6600 1 0 0
+{
+T 2500 6600 5 10 0 0 0 0 1
+pintype=io
+T 2145 6595 9 8 1 1 0 7 1
+pinlabel=DATA10
+T 2245 6645 5 8 1 1 0 0 1
+pinnumber=B10
+T 2500 6600 5 10 0 0 0 0 1
+pinseq=10
+}
+P 2500 6900 2200 6900 1 0 0
+{
+T 2500 6900 5 10 0 0 0 0 1
+pintype=io
+T 2145 6895 9 8 1 1 0 7 1
+pinlabel=DATA11
+T 2245 6945 5 8 1 1 0 0 1
+pinnumber=B16
+T 2500 6900 5 10 0 0 0 0 1
+pinseq=16
+}
+P 2500 7200 2200 7200 1 0 0
+{
+T 2500 7200 5 10 0 0 0 0 1
+pintype=io
+T 2145 7195 9 8 1 1 0 7 1
+pinlabel=DATA12
+T 2245 7245 5 8 1 1 0 0 1
+pinnumber=B9
+T 2500 7200 5 10 0 0 0 0 1
+pinseq=9
+}
+P 2500 7500 2200 7500 1 0 0
+{
+T 2500 7500 5 10 0 0 0 0 1
+pintype=io
+T 2145 7495 9 8 1 1 0 7 1
+pinlabel=DATA13
+T 2245 7545 5 8 1 1 0 0 1
+pinnumber=C10
+T 2500 7500 5 10 0 0 0 0 1
+pinseq=30
+}
+P 2500 7800 2200 7800 1 0 0
+{
+T 2500 7800 5 10 0 0 0 0 1
+pintype=io
+T 2145 7795 9 8 1 1 0 7 1
+pinlabel=DATA14
+T 2245 7845 5 8 1 1 0 0 1
+pinnumber=B12
+T 2500 7800 5 10 0 0 0 0 1
+pinseq=12
+}
+P 2500 8100 2200 8100 1 0 0
+{
+T 2500 8100 5 10 0 0 0 0 1
+pintype=io
+T 2145 8095 9 8 1 1 0 7 1
+pinlabel=DATA15
+T 2245 8145 5 8 1 1 0 0 1
+pinnumber=C7
+T 2500 8100 5 10 0 0 0 0 1
+pinseq=27
+}
+P 2500 3600 2200 3600 1 0 0
+{
+T 2500 3600 5 10 0 0 0 0 1
+pintype=io
+T 2145 3595 9 8 1 1 0 7 1
+pinlabel=DATA16
+T 2245 3645 5 8 1 1 0 0 1
+pinnumber=C8
+T 2500 3600 5 10 0 0 0 0 1
+pinseq=28
+}
+P 2500 3900 2200 3900 1 0 0
+{
+T 2500 3900 5 10 0 0 0 0 1
+pintype=io
+T 2145 3895 9 8 1 1 0 7 1
+pinlabel=DATA17
+T 2245 3945 5 8 1 1 0 0 1
+pinnumber=C5
+T 2500 3900 5 10 0 0 0 0 1
+pinseq=25
+}
+P 2500 4200 2200 4200 1 0 0
+{
+T 2500 4200 5 10 0 0 0 0 1
+pintype=io
+T 2145 4195 9 8 1 1 0 7 1
+pinlabel=DATA18
+T 2245 4245 5 8 1 1 0 0 1
+pinnumber=C6
+T 2500 4200 5 10 0 0 0 0 1
+pinseq=26
+}
+P 2500 4500 2200 4500 1 0 0
+{
+T 2500 4500 5 10 0 0 0 0 1
+pintype=io
+T 2145 4495 9 8 1 1 0 7 1
+pinlabel=DATA19
+T 2245 4545 5 8 1 1 0 0 1
+pinnumber=B13
+T 2500 4500 5 10 0 0 0 0 1
+pinseq=13
+}
+P 2500 4800 2200 4800 1 0 0
+{
+T 2500 4800 5 10 0 0 0 0 1
+pintype=io
+T 2145 4795 9 8 1 1 0 7 1
+pinlabel=DATA20
+T 2245 4845 5 8 1 1 0 0 1
+pinnumber=C3
+T 2500 4800 5 10 0 0 0 0 1
+pinseq=23
+}
+P 2500 5100 2200 5100 1 0 0
+{
+T 2500 5100 5 10 0 0 0 0 1
+pintype=io
+T 2145 5095 9 8 1 1 0 7 1
+pinlabel=DATA21
+T 2245 5145 5 8 1 1 0 0 1
+pinnumber=C4
+T 2500 5100 5 10 0 0 0 0 1
+pinseq=24
+}
+P 2500 5400 2200 5400 1 0 0
+{
+T 2500 5400 5 10 0 0 0 0 1
+pintype=io
+T 2145 5395 9 8 1 1 0 7 1
+pinlabel=DATA22
+T 2245 5445 5 8 1 1 0 0 1
+pinnumber=B14
+T 2500 5400 5 10 0 0 0 0 1
+pinseq=14
+}
+P 2500 5700 2200 5700 1 0 0
+{
+T 2500 5700 5 10 0 0 0 0 1
+pintype=io
+T 2145 5695 9 8 1 1 0 7 1
+pinlabel=DATA23
+T 2245 5745 5 8 1 1 0 0 1
+pinnumber=B11
+T 2500 5700 5 10 0 0 0 0 1
+pinseq=11
+}
+P 2500 900 2200 900 1 0 0
+{
+T 2500 900 5 10 0 0 0 0 1
+pintype=io
+T 2145 895 9 8 1 1 0 7 1
+pinlabel=I2C3_SDA
+T 2245 945 5 8 1 1 0 0 1
+pinnumber=B15
+T 2500 900 5 10 0 0 0 0 1
+pinseq=15
+}
+P 2500 600 2200 600 1 0 0
+{
+T 2500 600 5 10 0 0 0 0 1
+pintype=io
+T 2145 595 9 8 1 1 0 7 1
+pinlabel=I2C3_SCL
+T 2245 645 5 8 1 1 0 0 1
+pinnumber=C14
+T 2500 600 5 10 0 0 0 0 1
+pinseq=34
+}
+P 2500 2400 2200 2400 1 0 0
+{
+T 2500 2400 5 10 0 0 0 0 1
+pintype=io
+T 2145 2395 9 8 1 1 0 7 1
+pinlabel=VSYNC
+T 2245 2445 5 8 1 1 0 0 1
+pinnumber=B17
+T 2500 2400 5 10 0 0 0 0 1
+pinseq=17
+}
+P 2500 1500 2200 1500 1 0 0
+{
+T 2500 1500 5 10 0 0 0 0 1
+pintype=io
+T 2145 1495 9 8 1 1 0 7 1
+pinlabel=PUP
+T 2245 1545 5 8 1 1 0 0 1
+pinnumber=B18
+T 2500 1500 5 10 0 0 0 0 1
+pinseq=18
+}
+P 2500 3000 2200 3000 1 0 0
+{
+T 2500 3000 5 10 0 0 0 0 1
+pintype=io
+T 2145 2995 9 8 1 1 0 7 1
+pinlabel=EN
+T 2245 3045 5 8 1 1 0 0 1
+pinnumber=C17
+T 2500 3000 5 10 0 0 0 0 1
+pinseq=37
+}
+P 2500 2100 2200 2100 1 0 0
+{
+T 2500 2100 5 10 0 0 0 0 1
+pintype=io
+T 2145 2095 9 8 1 1 0 7 1
+pinlabel=HSYNC
+T 2245 2145 5 8 1 1 0 0 1
+pinnumber=C18
+T 2500 2100 5 10 0 0 0 0 1
+pinseq=38
+}
+P 2500 2700 2200 2700 1 0 0
+{
+T 2500 2700 5 10 0 0 0 0 1
+pintype=io
+T 2145 2695 9 8 1 1 0 7 1
+pinlabel=PCLK
+T 2245 2745 5 8 1 1 0 0 1
+pinnumber=C16
+T 2500 2700 5 10 0 0 0 0 1
+pinseq=36
+}
+T 1900 10900 5 10 1 1 0 0 1
+value=sr-asm-beagleboard
+T 300 11900 5 10 0 0 0 0 1
+documentation=http://beagleboard.org/static/BBSRM_latest.pdf
+T 300 11500 5 10 0 0 0 0 1
+symversion=1
