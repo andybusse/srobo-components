@@ -4,6 +4,18 @@ T 400 8250 5 10 0 0 0 0 1
 device=STM32F102Cx
 T 4850 9050 8 10 1 1 0 6 1
 refdes=U?
+T -1389 100 8 10 0 1 0 0 1
+footprint=LQFP48_7
+T 95 100 8 10 0 1 0 0 1
+author=andybusse
+T 400 8650 5 10 0 0 0 0 1
+description=ARM-based 32-bit MCU
+T 400 8450 5 10 0 0 0 0 1
+numslots=0
+T 400 9050 3 10 1 0 0 0 1
+STM32F102Cx
+T 400 8850 5 10 0 0 0 0 1
+documentation=http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00210833.pdf
 P 400 6100 100 6100 1 0 1
 {
 T 350 6150 5 8 1 1 0 6 1
@@ -290,14 +302,6 @@ pinseq=10
 T 4750 8700 5 8 0 1 0 8 1
 pintype=io
 }
-T 400 8650 5 10 0 0 0 0 1
-description=ARM-based 32-bit MCU
-T 400 8450 5 10 0 0 0 0 1
-numslots=0
-T 400 9050 3 10 1 0 0 0 1
-STM32F102Cx
-T 400 8850 5 10 0 0 0 0 1
-documentation=http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00210833.pdf
 P 400 8700 100 8700 1 0 1
 {
 T 350 8750 5 8 1 1 0 6 1
@@ -540,7 +544,3 @@ pinseq=2
 T 4750 900 5 8 0 1 0 8 1
 pintype=io
 }
-T -1389 100 8 10 0 1 0 0 1
-footprint=LQFP48_7
-T 95 100 8 10 0 1 0 0 1
-author=andybusse
