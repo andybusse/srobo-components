@@ -540,3 +540,7 @@ pinseq=2
 T 4750 900 5 8 0 1 0 8 1
 pintype=io
 }
+T -1389 100 8 10 0 1 0 0 1
+footprint=LQFP48_7
+T 95 100 8 10 0 1 0 0 1
+author=andybusse
