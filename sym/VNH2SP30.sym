@@ -10,9 +10,9 @@ T 300 2450 5 10 0 0 0 0 1
 description=Automotive fully integrated H-bridge driver
 T 300 2250 5 10 0 0 0 0 1
 numslots=0
-T 300 2150 3 10 1 0 0 0 2
+T 300 2350 3 10 1 0 0 0 1
 VNH2SP30
-T 300 2650 5 10 0 0 0 0 1
+T -5 -5 8 10 0 1 0 0 1
 documentation=http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00043711.pdf
 P 1900 2300 1900 2600 1 0 1
 {
